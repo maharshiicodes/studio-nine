@@ -2,6 +2,7 @@
 import { animate } from 'motion'
 import {motion} from 'motion/react'
 import { inter } from '@/app/layout'
+import mountain from '../../assets/images/mountain.png'
 
 export default function Iphone() {
     return(
@@ -49,7 +50,7 @@ export default function Iphone() {
             duration : 0.9,
             ease : [0.9,0.01,0,1.03],
            }}
-           src='https://images.pexels.com/photos/34655582/pexels-photo-34655582.jpeg' className = 'w-full h-full object-cover rounded-3xl'
+           src={mountain.src} className = 'w-full h-full object-cover rounded-3xl'
            />
                <div className = 'absolute bottom-1 left-1/2 -translate-x-1/2 h-1 w-12 bg-neutral-400 rounded-full'></div>
            </div>

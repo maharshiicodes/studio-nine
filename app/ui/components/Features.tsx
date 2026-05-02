@@ -3,10 +3,12 @@ import "@/app/globals.css"
 import {inter} from "@/app/layout"
 import Iphone from "../util-components/Iphone"
 import Macbook from "../util-components/Macbook"
+import BentoFeature from "../util-components/BentoFeature"
+import CometCard from "../util-components/CometCard"
 
 export default function Features(){
    return(
-    <div className = 'flex flex-col items-start justify-start gap-4 py-24 pl-1 relative w-full max-w-6xl h-full dotted-frame dotted-frame-bottom'>
+    <div className = 'flex flex-col items-start justify-start gap-4 py-24 pl-1 relative w-full max-w-6xl h-full dotted-frame-bottom'>
        <div className = 'flex flex-col items-start justify-start gap-2 ml-10' >
          <h1 className = {`${inter.className} text-2xl text-black font-semibold`}>From idea to infrastructure.</h1>
          <p className = {`${inter.className} text-neutral-600`}>
@@ -33,7 +35,7 @@ Whiteboard to production — design, build, and deliver all under one roof.</p>
         <div className = 'flex flex-col items-start justify-start gap-2'>
             <div className = 'flex items-center justify-center bg-white/80 px-4 py-4 w-143 h-100 diamond-grid bg-[repeating-linear-gradient(315deg,#d4d4d4_0px,#d4d4d4_1px,transparent_0px,transparent_50%),repeating-linear-gradient(-315deg,#d4d4d4_0px,#d4d4d4_1px,transparent_0px,transparent_50%)] bg-[size:8px_8px] border border-neutral-200-'>
                  <div className = 'bg-white rounded-xl w-90 h-90 flex items-center justify-center'>
-
+                    <BentoFeature />
                  </div>
             </div>
             <div className = 'flex items-center justidy-between gap-6 w-140 h-20 px-8 py-2 bg-white'>
@@ -49,8 +51,8 @@ Whiteboard to production — design, build, and deliver all under one roof.</p>
         {/* second div ends here */}
         <div className = 'flex flex-col items-start justify-start gap-2'>
             <div className = 'flex items-center justify-center bg-white/80 px-4 py-4 w-143 h-100 diamond-grid bg-[repeating-linear-gradient(315deg,#d4d4d4_0px,#d4d4d4_1px,transparent_0px,transparent_50%),repeating-linear-gradient(-315deg,#d4d4d4_0px,#d4d4d4_1px,transparent_0px,transparent_50%)] bg-[size:8px_8px] border border-neutral-200-'>
-                 <div className = 'bg-white rounded-xl w-90 h-90 flex items-center justify-center'>
-
+                 <div className = 'bg-transparent rounded-xl w-90 h-90 flex items-center justify-center'>
+                    <CometCard />
                  </div>
             </div>
             <div className = 'flex items-center justidy-between gap-6 w-140 h-20 px-8 py-2 bg-white'>
@@ -58,7 +60,7 @@ Whiteboard to production — design, build, and deliver all under one roof.</p>
                      <h1 className = {`${inter.className} text-lg`}>3</h1>
                    </div>
                    <div>
-                     <h1 className = {`${inter.className} text-2xl text-neutral-500 font-medium`}><span className = 'font-bold text-black'>Microinteractions</span>that feel intentional<br></br> makes your webpage.</h1>
+                     <h1 className = {`${inter.className} text-2xl text-neutral-500 font-medium`}><span className = 'font-bold text-black'>Microinteractions</span> that feel intentional.</h1>
                    </div>
             </div>
             {/* text will come here */}
