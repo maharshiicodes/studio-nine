@@ -41,18 +41,18 @@ export default function CometCard() {
             stiffness : 300,
             damping : 30,
         }}
-        className = 'flex flex-col items-start justify-start gap-2 px-4 py-8 w-90 h-90 rounded-xl bg-linear-to-br/oklch from-black via-neutral-700 to-black cursor-grab group'>
+        className = 'flex flex-col items-start justify-start gap-2 px-4 py-8 w-90 h-90 rounded-xl bg-linear-to-br/oklch from-black via-neutral-700 to-black cursor-grab group '>
            <motion.h1 
            style = {{
             translateZ : 10,
            }}
-           className = {`${inter.className} font-semibold text-2xl bg-linear-to-r from-white via-neutral-400 to-neutral-600 bg-clip-text text-transparent tracking-tight`} >Studio Nine</motion.h1>
+           className = {`${inter.className} font-semibold text-2xl bg-linear-to-br from-white via-neutral-400 to-neutral-600 bg-clip-text text-transparent tracking-tight`} >Studio Nine</motion.h1>
             <motion.p 
             style = {{
                 translateZ : 5,
             }}
             className = {`${inter.className} text-sm  bg-linear-to-r from-white via-neutral-400 to-white bg-clip-text text-transparent `}>Every hover,tap and scroll <br></br>feel like it was made to delight.</motion.p>
-            <img src  = {asteroid.src} className = 'w-80 h-40 object-cover rounded-3xl mt-2 mx-auto grayscale group-hover:grayscale-0 ' />
+            <img src  = {asteroid.src} className = 'w-80 h-40 object-cover rounded-3xl mt-2 mx-auto grayscale group-hover:grayscale-0 pointer-events-none' />
         </motion.div>
     )
 }

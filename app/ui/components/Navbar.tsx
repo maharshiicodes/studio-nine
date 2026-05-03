@@ -1,6 +1,7 @@
 'use client'
 import "@/app/globals.css";
 import { inter } from "@/app/layout";
+import { cn } from "@/lib/utils";
 
 const navlinks = [
     {
@@ -16,9 +17,12 @@ const navlinks = [
         link : '/work'
     }
 ]
-export default function Navbar() {
+interface NavbarProps {
+    className ?: string,
+}
+export default function Navbar({ className }: NavbarProps) {
     return(
-        <nav className = 'w-200 h-16 bg-white flex items-center justify-between px-8 shadow-md rounded-2xl border border-neutral-200 mx-auto'>
+        <nav className = {cn('w-200 h-16 bg-white flex items-center justify-between px-8 shadow-md rounded-2xl border border-neutral-200 mx-auto', className)}>
             <div>
                 <h1 className = {`text-xl font-bold text-gray-800 cursor-pointer ${inter.className}`}>Studio Nine</h1>
             </div>
