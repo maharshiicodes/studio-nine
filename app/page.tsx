@@ -3,6 +3,7 @@ import Features from "./ui/components/Features";
 import Work from "./ui/components/Work";
 import Testimonials from "./ui/components/Testimonials";
 import Navbar from "./ui/components/Navbar";
+import Services from "./ui/components/Services";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Features />
         <Work />
         <Testimonials />
+        <Services />
       </main>
   );
 }

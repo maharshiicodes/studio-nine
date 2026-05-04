@@ -58,7 +58,7 @@ export default function TextScroll({ feedback, avatar, name, work, className }: 
   });
 
   return (
-    <div ref={ref} className= {cn("flex flex-col items-start justify-start gap-24 px-8 py-8 bg-blue-500 text-white rounded-3xl mx-auto w-90 h-176", className)}>
+    <div ref={ref} className= {cn("relative flex flex-col items-start justify-start gap-24 px-8 py-8 bg-blue-500 text-white rounded-3xl mx-auto w-90 h-176", className)}>
       <div>
         <h1 className = {`${inter.className} text-lg font-normal leading-relaxed`}>
         {feedback.map((word, index) => (
