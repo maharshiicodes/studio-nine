@@ -41,7 +41,7 @@ export default function CometCard() {
             stiffness : 300,
             damping : 30,
         }}
-        className = 'flex flex-col items-start justify-start gap-2 px-4 py-8 w-90 h-90 rounded-xl bg-linear-to-br/oklch from-black via-neutral-700 to-black cursor-grab group '>
+        className = 'flex flex-col items-start justify-start gap-2 px-4 py-8 w-90 h-90 rounded-xl bg-linear-to-br/oklch from-black via-neutral-700 to-black cursor-grabbing group '>
            <motion.h1 
            style = {{
             translateZ : 10,

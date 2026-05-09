@@ -5,6 +5,8 @@ import { inter } from '@/app/layout'
 import waves from '@/app/assets/images/waves.png'
 import  uifaces1 from '@/app/assets/images/uifaces-1.jpg';
 import  uifaces3 from '@/app/assets/images/uifaces-3.jpg';
+import { CgWebsite } from "react-icons/cg";
+
 
 export default function AnimatedIphone() {
     return(
@@ -39,8 +41,8 @@ export default function AnimatedIphone() {
             transition = {{
                 duration : 0.3,
                 type : 'spring',
-                stiffness : 100,
-                damping : 13,   
+                stiffness : 80,
+                damping : 10,   
             }}
             className = 'absolute bottom-5 w-32 left-0.5  h-8 rounded-lg border border-white bg-gradient-to-r from-transparent from-5% via-cyan-600/20 via-20% via-cyan-400/10 via-59% to-transparent to-99% flex items-center justify-start gap-1 px-1 backdrop-blur-2xl shadow-[0_0_20px_rgba(165,243,252,0.35)]'>
                     <motion.div className = 'w-6 h-6 rounded-full'>
@@ -66,8 +68,8 @@ export default function AnimatedIphone() {
             transition = {{
                 duration : 0.3,
                 type : 'spring',
-                stiffness : 100,
-                damping : 13,   
+                stiffness : 80,
+                damping : 10,   
             }}
             className = 'absolute bottom-0 w-32 left-0.5  h-8 rounded-lg border border-white bg-gradient-to-r from-transparent from-5% via-cyan-600/20 via-20% via-cyan-400/10 via-59% to-transparent to-99% flex items-center justify-start gap-1 px-1 backdrop-blur-2xl shadow-[0_0_20px_rgba(165,243,252,0.35)]'>
                     <motion.div className = 'w-6 h-6 rounded-full'>
