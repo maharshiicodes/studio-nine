@@ -5,19 +5,23 @@ import { cn } from "@/lib/utils";
 import { FiMenu, FiX } from "react-icons/fi";
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { hr } from "motion/react-client";
 
 const navlinks = [
     {
         name : 'Services',
-        link : '/services'
+        link : '/services',
+        href : '#services'
     },
     {
         name : 'Pricing',
-        link : '/pricing'
+        link : '/pricing',
+        href : '#pricing'
     },
     {
         name : 'Work',
-        link : '/work'
+        link : '/work',
+        href : '#work'
     }
 ]
 interface NavbarProps {
@@ -33,7 +37,7 @@ export default function Navbar({ className }: NavbarProps) {
             </div>
             <div className = 'hidden md:flex items-center gap-8'>
                 {navlinks.map((item,index) => (
-                    <a key = {index} href = {item.link} className = {`text-black ${inter.className}`}>{item.name}</a>
+                    <a key = {index} href = {item.href}  className = {`text-black ${inter.className}`}>{item.name}</a>
                     
                 ))}
             </div>

@@ -4,7 +4,7 @@ import { CiCircleCheck } from "react-icons/ci";
 
 export default function Pricing(){
     return(
-        <div className = 'w-full dotted-frame-bottom flex flex-col items-center justify-start gap-10 sm:gap-14 py-10 sm:py-12 px-4 sm:px-6'>
+        <div id="pricing" className = 'w-full dotted-frame-bottom flex flex-col items-center justify-start gap-10 sm:gap-14 py-10 sm:py-12 px-4 sm:px-6'>
            <h1 className = {`${inter.className} text-lg sm:text-xl text-black font-medium text-center`}>
             <span>Straightforward, one-time pricing</span> <br className="hidden sm:block" /><span className = 'text-xl sm:text-2xl'>that <span className = 'bg-blue-700 text-white px-1 rounded'> works for you</span> and your business.</span>
            </h1>

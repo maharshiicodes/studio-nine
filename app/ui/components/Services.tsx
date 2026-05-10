@@ -46,7 +46,7 @@ export default function Services(){
    ]
 
     return (
-        <div className = 'w-full dotted-frame-bottom flex flex-col items-center justify-start gap-10 sm:gap-14 py-10 sm:py-14 px-4 sm:px-6'>
+        <div id = "services"className = 'w-full dotted-frame-bottom flex flex-col items-center justify-start gap-10 sm:gap-14 py-10 sm:py-14 px-4 sm:px-6'>
            <div className="text-center">
              <h1 className = {`${inter.className} text-lg sm:text-xl font-semibold`}> We take care of things from <span className = 'bg-blue-700 text-white px-1 rounded'>start to finish</span></h1>
            </div>

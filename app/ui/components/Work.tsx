@@ -13,7 +13,7 @@ export default function Work(){
     const images : string[] = [cobalt.src, finance.src, mobile_green.src, jira.src, gems_ai.src];
     const duplicated_images : string[] = [...images,...images];
     return(
-        <div className = 'flex flex-col items-center justify-start px-4 sm:px-6 py-10 sm:py-14 gap-10 sm:gap-16 w-full max-w-6xl h-auto dotted-frame-bottom'>
+        <div id = "work"className = 'flex flex-col items-center justify-start px-4 sm:px-6 py-10 sm:py-14 gap-10 sm:gap-16 w-full max-w-6xl h-auto dotted-frame-bottom'>
             <h1 className = {`${inter.className} text-2xl sm:text-3xl md:text-4xl tracking-tight text-black font-semibold mt-6 sm:mt-10 text-center`}>We've worked with some of the<br className="hidden sm:block" /><span className = 'text-blue-500'>best companies</span> around the world </h1>
             <div className = 'relative w-full h-56 sm:h-72 md:h-80 bg-transparent py-4 overflow-hidden [mask-image:linear-gradient(to_right,transparent_0%,black_3%,black_97%,transparent_100%)]'>
                <HorizontalScale className = 'absolute top-0 w-full max-w-6xl mx-auto'/>
