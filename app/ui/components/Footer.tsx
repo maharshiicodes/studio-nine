@@ -20,7 +20,7 @@ export default function Footer(){
                 <div className = 'flex justify-center md:justify-end gap-4 mt-3'>
                     <a href="https://x.com/maharshi_l1311" target="_blank" rel="noopener noreferrer"><FaSquareXTwitter size={24} className = 'hover:text-black transition-colors duration-300'/></a>
                     <a href="https://www.linkedin.com/in/maharshi-lavana-4857a2316/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} className = 'hover:text-blue-700 transition-colors duration-300'/></a>
-                    <a href="https://leetcode.com/geekymahrshi/" target="_blank" rel="noopener noreferrer"><SiLeetcode size={24} className = 'hover:text-yellow-500 transition-colors duration-300'/></a>
+                    <a href="https://leetcode.com/u/geekymaharshi/" target="_blank" rel="noopener noreferrer"><SiLeetcode size={24} className = 'hover:text-yellow-500 transition-colors duration-300'/></a>
                     <a href="https://github.com/maharshiicodes" target="_blank" rel="noopener noreferrer"><FaGithub size={24} className = 'hover:text-black transition-colors duration-300'/></a>
                 </div>
             </div>
