@@ -5,13 +5,27 @@
 @custom-variant dark (&:is(.dark *));
 
   .dotted-frame {
+  position: relative;
   background-image:
-    radial-gradient(circle, rgba(0, 0, 0, 0.45) 1px, transparent 1px),
     radial-gradient(circle, rgba(0, 0, 0, 0.45) 1px, transparent 1px);
-  background-position: left 0 top 0, right 0 top 0;
+  background-position: left 0 top 0;
   background-repeat: repeat-y;
-  background-size: 2px 12px, 2px 12px;
+  background-size: 2px 12px;
 }
+
+  .dotted-frame::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    background-image:
+      radial-gradient(circle, rgba(0, 0, 0, 0.45) 1px, transparent 1px);
+    background-repeat: repeat-y;
+    background-size: 2px 12px;
+    pointer-events: none;
+  }
 
   .dotted-frame-bottom {
     position: relative;
