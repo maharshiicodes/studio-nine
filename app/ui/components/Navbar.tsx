@@ -67,7 +67,7 @@ export default function Navbar({ className }: NavbarProps) {
                             {navlinks.map((item, index) => (
                                 <a
                                     key={index}
-                                    href={item.link}
+                                    href={item.href}
                                     className={`text-black ${inter.className}`}
                                     onClick={() => setIsOpen(false)}
                                 >
