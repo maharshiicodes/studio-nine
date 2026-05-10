@@ -61,7 +61,7 @@ export default function Testimonials(){
               avatar = {uifaces7.src}
               name = "Michael Chang"
               work = "VP Product @ ShiftHQ"
-              className="mx-auto w-88"
+              className="mx-auto"
                />
                <GridGray 
               feedback = "From rough concept to polished product: patient with feedback, great collaboration, and delivery that matched our evolving vision."

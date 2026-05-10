@@ -30,7 +30,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable}   h-full antialiased`}
     >
       <body className="min-h-screen bg-zinc-50">
-        <div className="dotted-frame mx-auto flex min-h-screen w-full max-w-6xl flex-col bg-white">
+        <div className="dotted-frame mx-auto flex min-h-screen w-full max-w-none sm:max-w-6xl flex-col bg-white">
           {children}
         </div>
       </body>

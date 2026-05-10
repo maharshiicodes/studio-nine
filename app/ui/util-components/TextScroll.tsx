@@ -40,7 +40,7 @@ function AnimatedWord({
         damping: 30,
         duration: 0.7,
     }}
-    className="inline-block mx-1 text-2xl leading-relaxed">
+    className="inline-block mx-1 text-lg sm:text-xl md:text-2xl leading-relaxed">
       {word}
     </motion.span>
   );
@@ -58,7 +58,7 @@ export default function TextScroll({ feedback, avatar, name, work, className }: 
   });
 
   return (
-    <div ref={ref} className= {cn("relative flex flex-col items-start justify-start gap-24 px-8 py-8 bg-blue-500 text-white rounded-3xl mx-auto w-90 h-176", className)}>
+    <div ref={ref} className= {cn("relative flex flex-col items-start justify-start gap-10 sm:gap-16 px-6 sm:px-8 py-8 bg-blue-500 text-white rounded-3xl mx-auto w-full h-auto min-h-[22rem]", className)}>
       <div>
         <h1 className = {`${inter.className} text-lg font-normal leading-relaxed`}>
         {feedback.map((word, index) => (

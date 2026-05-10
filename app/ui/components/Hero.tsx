@@ -42,7 +42,7 @@ export default function Hero() {
               
           </div>
       </div>
-        <div className="absolute top-6 md:top-10 left-4 sm:left-8 md:left-12 w-full">
+        <div className="absolute top-6 md:top-10 inset-x-0 px-4 sm:px-8 md:px-12">
           <Navbar />
         </div>
       </div>

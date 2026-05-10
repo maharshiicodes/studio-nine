@@ -27,7 +27,7 @@ export default function Navbar({ className }: NavbarProps) {
     const [isOpen, setIsOpen] = useState(false);
 
     return(
-        <nav className = {cn('w-93 md:w-270 max-w-6xl h-16 bg-white flex items-center justify-between px-4 sm:px-6 md:px-8 shadow-md rounded-2xl border border-neutral-200 mr-12 relative', className)}>
+        <nav className = {cn('w-full max-w-6xl h-16 bg-white flex items-center justify-between px-4 sm:px-6 md:px-8 shadow-md rounded-2xl border border-neutral-200 mx-auto relative', className)}>
             <div>
                 <h1 className = {`text-xl font-bold text-gray-800 cursor-pointer ${inter.className}`}>Studio Nine</h1>
             </div>
