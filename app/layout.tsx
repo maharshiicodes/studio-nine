@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono,Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const geistSans = Geist({
@@ -33,6 +34,7 @@ export default function RootLayout({
         <div className="dotted-frame mx-auto flex min-h-screen w-full max-w-none sm:max-w-6xl flex-col bg-white">
           {children}
         </div>
+        <Analytics />
       </body>
     </html>
   );
