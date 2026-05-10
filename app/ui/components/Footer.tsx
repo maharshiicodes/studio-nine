@@ -12,7 +12,7 @@ export default function Footer(){
         <div className = 'w-full dotted-frame-bottom flex flex-col items-start justify-start md:flex-row md:justify-between gap-8 sm:gap-12 py-10 sm:py-12 px-4 sm:px-8 md:px-20 h-auto'>
             <div className = {`${inter.className} text-xl sm:text-2xl font-normal text-center md:text-left w-full md:w-auto`}>
               Studio Nine<br className="hidden md:block" />
-              <p className = {`${inter.className} text-sm text-neutral-500 mt-2`}>We build software that earns<br className="hidden md:block" /> trust pixle by pixel</p>
+              <p className = {`${inter.className} text-sm text-neutral-500 mt-2`}>We build software that earns<br className="hidden md:block" /> trust pixel by pixel</p>
             </div>
             <div className = {`${inter.className} text-sm text-neutral-500 mt-2 text-center md:text-right w-full md:w-auto`}>
               Made with ❤️ by <span className = {`${inter.className} text-black font-bold`}><a href="https://x.com/maharshi_l1311" target="_blank" rel="noopener noreferrer">Maharshi</a></span>
