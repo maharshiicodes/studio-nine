@@ -14,11 +14,11 @@ import TextScroll from "../util-components/TextScroll";
 
 export default function Testimonials(){
     return(
-        <div className = 'w-full max-w-6xl h-170 dotted-frame-bottom flex flex-col items-center justify-start gap-2 py-6 h-300 dotted-frame-bottom'>
-            <h1 className = {`${inter.className } text-4xl bg-linear-to-r from-black via-neutral-700 to-neutral-500 bg-clip-text text-transparent tracking-tight font-semibold`}>
+        <div className = 'w-full max-w-6xl h-auto dotted-frame-bottom flex flex-col items-center justify-start gap-4 py-10 sm:py-14 px-4 sm:px-6'>
+            <h1 className = {`${inter.className } text-2xl sm:text-3xl md:text-4xl bg-linear-to-r from-black via-neutral-700 to-neutral-500 bg-clip-text text-transparent tracking-tight font-semibold text-center`}>
                 WHAT OUR <span className = 'text-blue-500 '>CLIENTS</span> SAY
             </h1>
-            <div className = 'w-full h-full max-w-6xl grid grid-cols-3 grid-rows-3 px-1 '>
+            <div className = 'w-full h-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr gap-4 sm:gap-5'>
               <GridGray 
               feedback = "Excellent communication and professionalism: open to ideas, humble when views differ. We'll re-engage; can't wait for the next job together."
               avatar = {uifaces1.src}
